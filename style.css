@@ -142,6 +142,36 @@ font-weight: 400;}
             flex-wrap: nowrap;
         }
       }
+
+.section { padding-top: 70px;
+        display: block;}
+
+.section > .container> .row {
+    align-items: center;
+}
+.col-lg-5 .img-fluid {
+    display: block;
+    margin: 0 auto;
+}
+.section_heading > h2 {
+    margin-bottom: 30px;
+    font-family:'Raleway', sans-serif;
+    font-size: 24px;
+    color: #1E1E1E;
+
+}
+.section_para > p {
+    margin-bottom: 30px;
+    font-family:'Raleway', sans-serif;
+    font-size: 16px;
+    columns: #777777;
+    text-align: left;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+#rev { flex-direction: row-reverse;}
+
     /*@media (min-width: 768px) { .row { flex-wrap: nowrap;} }
  /*@media (min-width: 992px) { ... }*/
  /*@media (min-width: 576px) { 
