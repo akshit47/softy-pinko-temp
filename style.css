@@ -145,6 +145,7 @@ font-weight: 400;}
 
 .section { padding-top: 70px;
         display: block;}
+.two { padding-bottom: 100px;}
 
 .section > .container> .row {
     align-items: center;
@@ -171,6 +172,100 @@ font-weight: 400;}
 }
 
 #rev { flex-direction: row-reverse;}
+#work_process {
+    background-image: url(./assests/images/work-process-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: block;
+    padding: 90px 0;
+
+}
+.mini_content > .container > .row {
+
+
+    display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+justify-content: center;
+justify-content: space-between;
+}
+.mini_content > .container > .row > .col-lg-6.offset-lg-3{
+
+    padding: 20px 0;
+    text-align: center;
+}
+.mini_content > .container > .row > .col-lg-6.offset-lg-3 > h1{
+
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.mini_content > .container > .row > .col-lg-6.offset-lg-3 > p{
+
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+.mini_content > .container > .row.two{
+
+    display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+justify-content: space-between;
+font-family: 'Raleway', sans-serif;
+}
+
+.mini_content > .container > .row.two > .col-lg-3 > .mini_box {
+    padding: 20px;
+background: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+text-align: center;
+}
+.mini_content > .container > .row.two > .col-lg-3 > .mini_box > i {
+  font-size: 20px;
+  margin-bottom: 20;
+}
+.mini_content > .container > .row.two > .col-lg-3 > .mini_box > strong {
+    font-weight: 400;
+font-size: 17px;
+color: #1e1e1e;
+letter-spacing: 0.25px;
+margin-bottom: 5px;
+margin-top: 20px;
+}
+.mini_content > .container > .row.two > .col-lg-3 > .mini_box > span {
+    font-weight: 400;
+font-size: 14px;
+color: #777;
+letter-spacing: 0.75px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
     /*@media (min-width: 768px) { .row { flex-wrap: nowrap;} }
  /*@media (min-width: 992px) { ... }*/
